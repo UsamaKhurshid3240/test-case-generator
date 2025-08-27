@@ -15,9 +15,10 @@ jobs:
       - name: Checkout Target Repo
         uses: actions/checkout@v3
         with:
-          repository: UsamaKhurshid3240/React-PortFolio   
-          ref: ${{ github.event.client_payload.ref }}
+          repository: UsamaKhurshid3240/React-PortFolio
+          ref: main
           path: target-repo
+          token: ${{ secrets.PAT }}
 
       - name: Setup Node
         uses: actions/setup-node@v3
