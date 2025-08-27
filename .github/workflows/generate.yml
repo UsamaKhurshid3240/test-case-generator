@@ -37,7 +37,7 @@ jobs:
       - name: Commit and Push generated tests
         run: |
           git config --global user.name "UsamaKhurshid3240"
-          git config --global user.email "usamakhurshid665@gmail.com"
+          git config --global user.email "usamakhurshid3240@iiu.edu.pk"
           git remote set-url origin https://UsamaKhurshid3240:${{ secrets.PAT }}@github.com/UsamaKhurshid3240/test-case-generator.git
           git add tests/
           git commit -m "🔄 Auto-generated test cases" || echo "No changes to commit"
