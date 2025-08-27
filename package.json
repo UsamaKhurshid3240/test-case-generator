@@ -1,0 +1,15 @@
+{
+  "name": "test-case-generator",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
