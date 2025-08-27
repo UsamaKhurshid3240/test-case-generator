@@ -15,7 +15,7 @@ jobs:
       - name: Checkout Target Repo
         uses: actions/checkout@v3
         with:
-          repository: owner/repo-A   # yahan apne dusre service ka repo likho
+          repository: UsamaKhurshid3240/React-PortFolio   
           ref: ${{ github.event.client_payload.ref }}
           path: target-repo
 
